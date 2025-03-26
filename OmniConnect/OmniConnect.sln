@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniConnect.API", "OmniConnect.API\OmniConnect.API.csproj", "{66894D88-F7FD-4C16-8EC9-3F87B44A7EBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniConnect.Dominio", "OmniConnect.Dominio\OmniConnect.Dominio.csproj", "{F94E2B58-E851-4156-A2D5-1B983ED4C819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniConnect.Aplicacao", "OmniConnect.Aplicacao\OmniConnect.Aplicacao.csproj", "{2BC4C6D9-3B46-4AD9-84EA-A13BB0462299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniConnect.Infraestrutura", "OmniConnect.Infraestrutura\OmniConnect.Infraestrutura.csproj", "{7ACDD473-15D3-47B4-8114-63745337D8C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniConnect.Tests", "OmniConnect.Tests\OmniConnect.Tests.csproj", "{CDE92AE5-2C48-41F8-8B23-26BE5E865EE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniConnect.Web", "OmniConnect.Web\OmniConnect.Web.csproj", "{901771EF-3B5A-433B-B287-757852164B2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66894D88-F7FD-4C16-8EC9-3F87B44A7EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66894D88-F7FD-4C16-8EC9-3F87B44A7EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66894D88-F7FD-4C16-8EC9-3F87B44A7EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66894D88-F7FD-4C16-8EC9-3F87B44A7EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F94E2B58-E851-4156-A2D5-1B983ED4C819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94E2B58-E851-4156-A2D5-1B983ED4C819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94E2B58-E851-4156-A2D5-1B983ED4C819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94E2B58-E851-4156-A2D5-1B983ED4C819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC4C6D9-3B46-4AD9-84EA-A13BB0462299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC4C6D9-3B46-4AD9-84EA-A13BB0462299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC4C6D9-3B46-4AD9-84EA-A13BB0462299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC4C6D9-3B46-4AD9-84EA-A13BB0462299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ACDD473-15D3-47B4-8114-63745337D8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACDD473-15D3-47B4-8114-63745337D8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACDD473-15D3-47B4-8114-63745337D8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACDD473-15D3-47B4-8114-63745337D8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE92AE5-2C48-41F8-8B23-26BE5E865EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE92AE5-2C48-41F8-8B23-26BE5E865EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE92AE5-2C48-41F8-8B23-26BE5E865EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE92AE5-2C48-41F8-8B23-26BE5E865EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901771EF-3B5A-433B-B287-757852164B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901771EF-3B5A-433B-B287-757852164B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901771EF-3B5A-433B-B287-757852164B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901771EF-3B5A-433B-B287-757852164B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF5189D1-ED1D-463C-A6C4-5278CDF1E8E8}
+	EndGlobalSection
+EndGlobal

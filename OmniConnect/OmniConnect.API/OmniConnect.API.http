@@ -1,0 +1,6 @@
+@OmniConnect.API_HostAddress = http://localhost:5279
+
+GET {{OmniConnect.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

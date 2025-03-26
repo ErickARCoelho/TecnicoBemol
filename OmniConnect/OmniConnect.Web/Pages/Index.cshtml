@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Cadastro de Usuário";
+}
+
+<h2>Cadastro de Usuário</h2>
+
+<form method="post">
+    <label>Nome:</label><br />
+    <input type="text" name="Nome" /><br /><br />
+
+    <label>Email:</label><br />
+    <input type="email" name="Email" /><br /><br />
+
+    <label>CEP:</label><br />
+    <input type="text" name="Cep" /><br /><br />
+
+    <button type="submit">Cadastrar</button>
+</form>
+
+@if (Model.Mensagem is not null)
+{
+    <p><strong>@Model.Mensagem</strong></p>
+}
